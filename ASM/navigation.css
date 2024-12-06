@@ -1,0 +1,132 @@
+ /* CSS cho thanh điều hướng */
+ #Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+    height: 62px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .nav-container li {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .nav-container a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-container a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .logo-store img {
+    height: 50px;
+  }
+  
+  .dropdown:hover .sub-menu,
+  .dropdown:hover .cake-menu {
+    display: block;
+  }
+  
+  .sub-menu,
+  .cake-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .sub-menu li,
+  .cake-menu li {
+    width: 200px;
+  }
+  
+  .sub-menu a,
+  .cake-menu a {
+    padding: 10px;
+    display: block;
+    white-space: nowrap;
+  }
+  
+  .sub-menu a:hover,
+  .cake-menu a:hover {
+    background-color: #f0f0f0;
+  }
+  .item {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+  .search-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  #search-input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .footer {
+    background-color: #e6cce6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .social-icons {
+    margin: 20px 0;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+  }
