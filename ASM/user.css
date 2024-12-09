@@ -1,0 +1,99 @@
+/* Reset mặc định */
+body, h2, p, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #73746e, #8b6587);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #eee;
+}
+
+.input-field input, 
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600; /* Tăng độ đậm của chữ */
+    background: rgba(255, 255, 255, 0.3);
+    color: #333; /* Đổi sang màu chữ đậm hơn */
+}
+
+
+.input-field textarea {
+  resize: none;
+  height: 80px;
+}
+
+input:disabled {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #aaa;
+  color: #bbb;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #5263d5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #45a049;
+}
+.navigation-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-buttons .btn {
+  width: 48%;
+
+}
+.fa-user-circle {
+  color: #fff;
+  margin-right: 10px;
+}
